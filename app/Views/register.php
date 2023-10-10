@@ -5,7 +5,7 @@
 <body>
 
     <!--================login_part Area =================-->
-    <section class="login_part padding_top">
+    <section class="login_part " style="margin-top: 5%;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">

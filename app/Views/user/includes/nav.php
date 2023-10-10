@@ -4,7 +4,7 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"> <img src="<?= base_url() ?>assets/img/logo.png"
+                    <a class="navbar-brand" href="/"> <img src="<?= base_url() ?>assets/img/logo.png"
                             alt="logo"> </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -18,7 +18,7 @@
                                 <a class="nav-link" href="<?= base_url() ?>">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?= base_url() ?>shop">Shop</a>
+                                <a class="nav-link" href="<?= base_url() ?>products">Shop</a>
                             </li>
 
 

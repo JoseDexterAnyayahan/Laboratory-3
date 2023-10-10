@@ -14,7 +14,7 @@ class UserController extends BaseController
     public function index()
     {
         $data = [
-            'where' => 'Home',
+            'where' => '>',
             'products' => $this->products->findAll(),
         ];
         return view('user/index', $data);
@@ -28,6 +28,13 @@ class UserController extends BaseController
         // var_dump($data);
         return view('user/single-product', $data);
 
+    }
+    public function products(){
+        $data = [
+            'where' => 'Products',
+            'products' => $this->products->findAll(),
+        ];
+        return view('user/products', $data);
     }
     public function contact()
     {

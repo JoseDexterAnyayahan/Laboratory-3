@@ -13,6 +13,7 @@ $routes->get('/register', 'AuthController::register');
 $routes->post('/registerauth', 'AuthController::registerauth');
 
 $routes->get('/', 'UserController::index');
+$routes->get('/products', 'UserController::products');
 $routes->get('/contact', 'UserController::contact');
 $routes->get('/singleprod/(:num)', 'UserController::singleprod/$1', ['filter' => 'authguard']);
 
